@@ -105,7 +105,7 @@ To add this MCP server to Cursor, follow these steps:
 
 
 ## Screenshots
-![Alt text]("C:\Users\ARYAN\Pictures\Screenshots\Screenshot 2025-04-23 165726.png")
+![Alt text](C:\Users\ARYAN\Pictures\Screenshots\Screenshot 2025-04-23 165726.png)
 
 image.png
 
