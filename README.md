@@ -18,8 +18,13 @@ cd mcp-server-demo
 
 2. Install the required packages:
 ```bash
-pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client python-dotenv
+pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client
 ```
+
+3. Download and place credentials.json:
+   - Download the `credentials.json` file from your Google Cloud Console
+   - Place the `credentials.json` file in the same directory as `main.py`
+   - Make sure the file is named exactly `credentials.json`
 
 ## Setting up Google Cloud Platform Credentials
 
@@ -58,18 +63,6 @@ pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client p
    - Click the "Share" button
    - Add the service account email (found in the `client_email` field of your `credentials.json`)
    - Give it "Editor" access
-
-## Environment Setup
-
-1. Create a `.env` file in the `mcp-server-demo` directory:
-```bash
-touch .env
-```
-
-2. Add your Google Sheets API key to the `.env` file:
-```
-GOOGLE_SHEETS_API_KEY=your_api_key_here
-```
 
 ## Running the Server
 
@@ -170,10 +163,10 @@ Example: `age=25 email=xyz@example.com phone=1234567890`
 
 ## Security Notes
 
-1. Never commit `credentials.json` or `.env` files to version control
-2. Keep your API keys and credentials secure
+1. Never commit `credentials.json` to version control
+2. Keep your credentials secure
 3. Only share your Google Sheet with necessary service accounts
-4. Regularly rotate your API keys and credentials
+4. Regularly rotate your credentials
 
 ## Troubleshooting
 
