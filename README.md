@@ -105,12 +105,15 @@ To add this MCP server to Cursor, follow these steps:
 
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/b1dec096-1d1f-4662-bbf0-6f51433bd76a)
+![image](https://github.com/user-attachments/assets/233c32f1-c981-45fe-8f37-3c8e2654e6a2)
+
+![image](https://github.com/user-attachments/assets/d6be305b-d633-4c6c-a300-d5d1032f373f)
+
+![image](https://github.com/user-attachments/assets/9bd9eea1-221b-4ab6-a285-4bceb65e4ea7)
+
+![image](https://github.com/user-attachments/assets/b1e8a66d-b4d4-4226-87a2-37938fc9478e)
 
 
-image.png
-
-image.png
 
 image.png
 ## Available Tools
