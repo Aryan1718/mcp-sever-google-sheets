@@ -80,6 +80,38 @@ mcp install main.py
 
 2. The server will start and be ready to accept commands.
 
+## Adding to Cursor
+
+To add this MCP server to Cursor, follow these steps:
+
+1. Open Cursor
+2. Go to Cursor -> Preferences -> Cursor Settings -> MCP -> Add new global MCP Server
+3. Add the following configuration to your Cursor config file:
+
+```json
+{
+  "mcpServers": {
+    "GoogleSheets": {
+      "command": "python",
+      "args": [
+        "main.py"
+      ]
+    }
+  }
+}
+```
+
+4. Restart Cursor for the changes to take effect
+
+
+## Screenshots
+image.png
+
+image.png
+
+image.png
+
+image.png
 ## Available Tools
 
 ### List Spreadsheets
@@ -167,37 +199,4 @@ If you encounter any issues or have questions, please:
 3. Ensure all prerequisites are met
 4. Contact support if the issue persists
 
-## Adding to Cursor
 
-To add this MCP server to Cursor, follow these steps:
-
-1. Open Cursor
-2. Go to Settings > Developer > Edit Config
-3. Add the following configuration to your Cursor config file:
-
-```json
-{
-  "mcpServers": {
-    "GoogleSheets": {
-      "command": "python",
-      "args": [
-        "main.py"
-      ]
-    }
-  }
-}
-```
-
-4. Restart Cursor for the changes to take effect
-
-## Screenshots
-
-Add your screenshots here to demonstrate:
-- Server running successfully
-- Example spreadsheet operations
-- Integration with Cursor
-
-Example:
-![Server Running](screenshots/server-running.png)
-![Spreadsheet Operations](screenshots/spreadsheet-operations.png)
-![Cursor Integration](screenshots/cursor-integration.png)
