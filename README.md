@@ -68,7 +68,7 @@ pip install google-auth-oauthlib google-auth-httplib2 google-api-python-client
 
 1. Install the MCP server:
 ```bash
-mcp install main.py
+uv run mcp install main.py
 ```
 
 2. The server will start and be ready to accept commands.
@@ -124,25 +124,25 @@ Gets information about a specific spreadsheet.
 
 ### Get Sheet Content
 ```bash
-/tool get_sheet_content "spreadsheet_id" "sheet_title"
+/tool get_sheet_content "spreadsheet_id"
 ```
 Retrieves the content of a specific sheet.
 
 ### Generate Sheet Data
 ```bash
-/tool generate_sheet_data "spreadsheet_id" "sheet_title" number_of_records
+/tool generate_sheet_data "spreadsheet_id"  number_of_records
 ```
 Generates realistic data based on the sheet's attributes.
 
 ### Add Data to Sheet
 ```bash
-/tool add_data_to_sheet "spreadsheet_id" "sheet_title" "data_string"
+/tool add_data_to_sheet "spreadsheet_id"  "data_string"
 ```
 Adds pre-generated data to a sheet.
 
 ### Update Sheet Record
 ```bash
-/tool update_sheet_record "spreadsheet_id" "sheet_title" "identifier" "updates"
+/tool update_sheet_record "spreadsheet_id"  "identifier" "updates"
 ```
 Updates a record in the sheet based on id or name matching.
 
@@ -193,6 +193,6 @@ If you encounter any issues or have questions, please:
 1. Check the error messages in the logs
 2. Verify your setup following the instructions above
 3. Ensure all prerequisites are met
-4. Contact support if the issue persists
+4. Contact aryanpandit17032002@gmail.com
 
 
